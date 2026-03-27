@@ -14,7 +14,7 @@ class ActividadFisica {
     }
 
     public obtenerResumen(): string {
-        return `Día de actividad: ${this.fecha}`;
+        return `Día de actividad: ${this.fecha.toLocaleDateString()}`;
     }
 }
 
@@ -25,6 +25,7 @@ class EntrenamientoFuerza extends ActividadFisica {
     private pesoKg: number;
 
     constructor(fecha: string, ejercicio: string, series: number, reps: number, peso: number) {
+
         super(new Date(fecha)); 
         this.ejercicio = ejercicio;
         this.series = series;
@@ -32,13 +33,13 @@ class EntrenamientoFuerza extends ActividadFisica {
         this.pesoKg = peso;
     }
 
-    // método sobrescrito
     public obtenerResumen(): string {
         const volumenTotal = this.series * this.repeticiones * this.pesoKg;
-        return `En ${this.ejercicio} moviste ${volumenTotal}kg el día ${this.fecha}`;
+        return `En ${this.ejercicio} moviste ${volumenTotal}kg el día ${this.fecha.toLocaleDateString()}`;
     }
-
 }
 
+
+export {};
 const miEntrenamiento = new EntrenamientoFuerza("2026-03-19", "Peso Muerto", 3, 8, 100);
 console.log(miEntrenamiento.obtenerResumen());
