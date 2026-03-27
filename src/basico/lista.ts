@@ -1,0 +1,1 @@
+// Declara un array de strings llamado tareas. Crea una función agregarTarea que reciba una nueva tarea y la añada al array, pero solo si la tarea no existe ya (evitar duplicados).
