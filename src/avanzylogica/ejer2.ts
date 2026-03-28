@@ -1,0 +1,1 @@
+// Sistema de Roles: Usa un enum para definir roles de usuario: Admin, Editor, Viewer. Crea una interfaz Usuario que incluya este enum. Escribe una función puedeEditar que reciba un usuario y devuelva true solo si su rol es Admin o Editor.

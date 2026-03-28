@@ -1,0 +1,1 @@
+// Crea un tipo de objeto que actúe como diccionario, donde las llaves sean strings (el término en inglés) y los valores sean strings (la traducción al español). Escribe una función que busque una palabra y devuelva un mensaje de error si no existe.

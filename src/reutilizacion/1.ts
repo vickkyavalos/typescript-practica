@@ -1,0 +1,1 @@
+// Contenedor Genérico: Crea una clase o función genérica llamada Envoltorio<T>. Debe permitir guardar un valor de cualquier tipo y tener un método obtenerValor que devuelva ese dato con su tipo original preservado.

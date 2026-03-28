@@ -1,0 +1,1 @@
+// Define una interface llamada Desarrollador. Debe tener: nombre, tecnologias (un array de strings), y esFreelance (boolean). Crea un objeto que siga esta interfaz y una función que reciba este objeto e imprima cuántas tecnologías conoce.

@@ -1,0 +1,1 @@
+// Gestión de Errores de API: Define un type llamado EstadoRespuesta que sea una unión de strings: "loading" | "success" | "error". Crea una función que reciba este estado y retorne un mensaje diferente para cada uno usando un switch.

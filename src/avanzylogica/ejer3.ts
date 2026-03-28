@@ -1,0 +1,1 @@
+// Combinador de Tipos (Unión de Interfaces): Crea dos interfaces: Coche (con puertas) y Moto (con cilindrada). Crea un tipo Vehiculo que sea la unión de ambos. Escribe una función que reciba un Vehiculo y, usando type guards (como in o typeof), imprima la propiedad específica según el tipo de vehículo que sea.
