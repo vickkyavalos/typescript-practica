@@ -1,1 +1,2 @@
-// Crea una interfaz Producto con id, nombre y precio. Luego, crea una función que reciba un array de Producto y devuelva la suma total de los precios.
+// Crea una interfaz Producto con id, nombre y precio. 
+// Luego, crea una función que reciba un array de Producto y devuelva la suma total de los precios.
