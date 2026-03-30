@@ -46,7 +46,7 @@ export abstract class Acceso {
 
 // 4. Clase Hija AccesoVIP: Implementa la validación asíncrona (usa un setTimeout con
 // Promise para simular la demora).
-
+//TERMINAR Y CORREGIR ESTO
 export class AccesoVIP extends Acceso{
     @LogAcceso
     async validarPermisos(user: IUsuario): Promise<boolean> {
